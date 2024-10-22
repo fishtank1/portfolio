@@ -1,0 +1,182 @@
+/* SETUP */
+
+@font-face {
+    font-family: 'Wudoo Mono';
+    src: url('WudooMono-Bold.eot');
+    src: local('Wudoo Mono Bold'), local('WudooMono-Bold'),
+        url('WudooMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('WudooMono-Bold.woff2') format('woff2'),
+        url('WudooMono-Bold.woff') format('woff'),
+        url('WudooMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wudoo Mono';
+    src: url('WudooMono-Regular.eot');
+    src: local('Wudoo Mono Regular'), local('WudooMono-Regular'),
+        url('WudooMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('WudooMono-Regular.woff2') format('woff2'),
+        url('WudooMono-Regular.woff') format('woff'),
+        url('WudooMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wudoo Mono';
+    src: url('WudooMono-Light.eot');
+    src: local('Wudoo Mono Light'), local('WudooMono-Light'),
+        url('WudooMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('WudooMono-Light.woff2') format('woff2'),
+        url('WudooMono-Light.woff') format('woff'),
+        url('WudooMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;    
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'Wudoo Mono';
+    background-color: #131313;
+}
+
+h1  {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    color: #D6D6D6;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.line-break-1 {
+    margin-bottom: 16px;
+}
+
+.line-break-2 {
+    margin: 16px 0;
+}
+
+/* REUSABLES */
+.container-md, .exp-group-container {
+    width: 45rem;
+    margin: auto;
+}
+
+.container-lg {
+    width: 53rem;
+    margin: auto;
+    padding: 4rem;
+}
+
+.container-md {
+    margin-bottom: 3.50rem;
+}
+
+.g-1 {
+    margin-bottom: 1.5rem;
+}
+
+.role {
+    font-weight: 500;
+}
+
+.timeline {
+    font-size: 16px;
+}
+
+.exp-group {
+    margin-top: 2.5rem;
+}
+
+.exp-details {
+    margin-top: 32px;
+}
+
+.custom-list {
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.exp-details .custom-list {
+    margin-bottom: 12px;
+}
+
+.skill-list .custom-list p {
+    font-size: 20px;
+}
+
+.skill-list {
+    margin-top: 40px;
+}
+
+.edu-group {
+    margin-top: 32px;
+}
+
+.edu-group:nth-child(2) {
+    margin-top: 40px;
+}
+
+.edu-title {
+    font-size: 20px;
+}
+
+.edu-title p {
+    font-weight: 500;
+}
+
+.edu-title + p {
+    font-size: 16px;
+}
+
+.social-list {
+    margin-top: 32px;
+}
+
+.social-item {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.social-item p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.social-item span {
+    color: #D6D6D6;
+    font-weight: 500;
+}
+
+.social-item img {
+    width: 18px;
+    margin-right: 15px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    margin-bottom: 24px;
+}
+
+.footer p:last-child {
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: bold;
+}
