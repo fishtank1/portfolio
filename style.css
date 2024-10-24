@@ -184,7 +184,7 @@ h2 {
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 821px) {
     /* For mobile phones: */
     .container-lg {
         width: 35rem;
