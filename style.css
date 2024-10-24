@@ -188,8 +188,12 @@ h2 {
     /* For mobile phones: */
     .container-lg {
         max-width: 100%;
-        width: 35rem;
+        width: 22.563rem;
         margin: auto;
-        padding: 0.5rem;
+        padding: 2.5rem 0.5rem;
+    }
+
+    .container-md {
+        margin-bottom: 3rem;
     }
   }
