@@ -61,16 +61,18 @@ h2 {
 }
 
 .line-break-1 {
-    margin-bottom: 16px;
+    width: 100%;
+    margin: 16px 0;
 }
 
 .line-break-2 {
+    width: 100%;
     margin: 16px 0;
 }
 
 /* REUSABLES */
 .container-md, .exp-group-container {
-    width: 45rem;
+    width: 100%;
     margin: auto;
 }
 
@@ -185,7 +187,7 @@ h2 {
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     .container-lg {
-        width: 22.56rem;
+        width: 35rem;
         margin: auto;
         padding: 0.5rem;
     }
